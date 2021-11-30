@@ -54,14 +54,29 @@ while (i < 10) {
 console.log(rand_nomi);
 console.log(rand_cognomi);
 
-let lista_random = rand_nomi.concat(rand_cognomi);
+// let lista_random = rand_nomi.concat(rand_cognomi);
 
-console.log(lista_random);
 
-for (i = 0; i < lista_random.length; i++){
-    document.writeln(lista_random[Math.floor(Math.random()*lista_random.length)])
-}
 
+// // for (i = 0; i < lista_random.length; i++){
+// //     document.writeln(lista_random[Math.floor(Math.random()*lista_random.length)])
+// // }
+
+let lista_random = '';
+
+// lista_random += rand_nomi[1] + " " + rand_cognomi[1];
+// document.writeln(lista_random);
+
+// console.log(lista_random);
+
+let lista_gatsby = [];
+
+lista_random += rand_nomi[1] + " " + rand_cognomi[1];
+
+
+
+document.writeln(lista_random);
+console.log(lista_gatsby);
 
 
 
