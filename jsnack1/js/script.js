@@ -69,14 +69,20 @@ let lista_random = '';
 
 // console.log(lista_random);
 
-let lista_gatsby = [];
+let lista_gatsby = [rand_nomi[1] + " " + rand_cognomi[1] , 
+rand_nomi[2] + " " + rand_cognomi[2], 
+rand_nomi[3] + " " + rand_cognomi[3],
+rand_nomi[4] + " " + rand_cognomi[4],
+rand_nomi[5] + " " + rand_cognomi[5],
+rand_nomi[6] + " " + rand_cognomi[6],
+rand_nomi[7] + " " + rand_cognomi[7],
+rand_nomi[8] + " " + rand_cognomi[8],
+rand_nomi[9] + " " + rand_cognomi[9]];
 
-lista_random += rand_nomi[1] + " " + rand_cognomi[1];
 
 
 
-document.writeln(lista_random);
-console.log(lista_gatsby);
+document.writeln(lista_gatsby);
 
 
 
